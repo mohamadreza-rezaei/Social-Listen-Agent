@@ -1,0 +1,42 @@
+# Public-project smoke config. SQLite is not a client; it is a name the
+# keyless sources actually discuss, so `run` can be demonstrated.
+# sqlite.org and duckdb.org are treated as the projects' own sites.
+name: sqlite-public-demo
+window_days: 7
+languages:
+  - en
+quiet_below: 1
+max_hits: 8
+web_provider: duckduckgo
+research_fallback: true
+targets:
+  - id: sqlite
+    role: brand
+    names:
+      - SQLite
+    domains:
+      - sqlite.org
+    handles:
+      - sqlite
+    negative_keywords: []
+  - id: duckdb
+    role: competitor
+    names:
+      - DuckDB
+    domains:
+      - duckdb.org
+    handles:
+      - duckdb
+sources:
+  hackernews: true
+  reddit: true
+  x: true
+  youtube: true
+  news: true
+  web: true
+  reviews: false
+  agent_reach: false
+  last30days: false
+news_sites:
+  - techcrunch.com
+  - reuters.com

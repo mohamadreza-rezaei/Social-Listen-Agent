@@ -1,0 +1,65 @@
+[
+  {
+    "source": "hackernews",
+    "status": "ok",
+    "detail": "queried",
+    "fetched": 32,
+    "kept": 27
+  },
+  {
+    "source": "reddit",
+    "status": "blocked",
+    "detail": "SQLite: Reddit HTTP 403; DuckDB: Reddit HTTP 403",
+    "fetched": 0,
+    "kept": 0
+  },
+  {
+    "source": "x",
+    "status": "unconfigured",
+    "detail": "Set X_BEARER_TOKEN to query the official recent-search API. No token was set, so X was not called.",
+    "fetched": 0,
+    "kept": 0
+  },
+  {
+    "source": "youtube",
+    "status": "unconfigured",
+    "detail": "Set YOUTUBE_API_KEY for the Data API, or enable sources.agent_reach for the keyless youtube channel.",
+    "fetched": 0,
+    "kept": 0
+  },
+  {
+    "source": "web",
+    "status": "blocked",
+    "detail": "SQLite: DuckDuckGo refused the query (HTTP 202); DuckDB: DuckDuckGo refused the query (HTTP 202)",
+    "fetched": 0,
+    "kept": 0
+  },
+  {
+    "source": "news",
+    "status": "blocked",
+    "detail": "SQLite: DuckDuckGo refused the query (HTTP 202); DuckDB: DuckDuckGo refused the query (HTTP 202)",
+    "fetched": 0,
+    "kept": 0
+  },
+  {
+    "source": "reviews",
+    "status": "skipped",
+    "detail": "turned off in config",
+    "fetched": 0,
+    "kept": 0
+  },
+  {
+    "source": "agent_reach",
+    "status": "skipped",
+    "detail": "optional Agent Reach CLI is off (sources.agent_reach)",
+    "fetched": 0,
+    "kept": 0
+  },
+  {
+    "source": "last30days",
+    "status": "skipped",
+    "detail": "optional last30days CLI is off; built-in clustering still runs on items this process collected",
+    "fetched": 0,
+    "kept": 0
+  }
+]

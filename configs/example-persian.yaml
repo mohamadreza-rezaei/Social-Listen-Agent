@@ -1,0 +1,52 @@
+# Same fictional brand, with Persian names and a local-language review site.
+# "vellum ore" / "سنگ ولوم" are negative keywords so a similar phrase is not
+# kept as a mention of Vellamore.
+name: vellamore-fa
+window_days: 7
+languages:
+  - en
+  - fa
+quiet_below: 1
+max_hits: 10
+research_fallback: true
+targets:
+  - id: vellamore
+    role: brand
+    names:
+      - Vellamore Studio
+      - ولامور
+      - استودیو ولامور
+    aliases:
+      - Vellamore
+    domains:
+      - vellamore.example
+    handles:
+      - vellamore
+    negative_keywords:
+      - vellum ore
+      - سنگ ولوم
+  - id: brindlepath
+    role: competitor
+    names:
+      - Brindlepath
+      - بریندل‌پس
+    domains:
+      - brindlepath.example
+    handles:
+      - brindlepath
+sources:
+  hackernews: true
+  reddit: true
+  x: true
+  youtube: true
+  news: true
+  web: true
+  reviews: true
+  agent_reach: false
+  last30days: false
+news_sites:
+  - bbc.com
+  - reuters.com
+review_sites:
+  - trustpilot.com
+  - emalls.ir

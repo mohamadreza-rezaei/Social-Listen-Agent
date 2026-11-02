@@ -1,0 +1,51 @@
+# Neutral sample. Replace every name before a real watch.
+# Nothing in this file is a client default; each run starts from the file you pass.
+name: vellamore-watch
+window_days: 7
+languages:
+  - en
+quiet_below: 1
+max_hits: 10
+research_fallback: true
+targets:
+  - id: vellamore
+    role: brand
+    names:
+      - Vellamore Studio
+    aliases:
+      - Vellamore
+    domains:
+      - vellamore.example
+    handles:
+      - vellamore
+    # "vellum ore" is a collision example: same letters, different phrase.
+    negative_keywords:
+      - vellum ore
+  - id: brindlepath
+    role: competitor
+    names:
+      - Brindlepath
+    domains:
+      - brindlepath.example
+    handles:
+      - brindlepath
+    negative_keywords: []
+sources:
+  hackernews: true
+  reddit: true
+  x: true
+  youtube: true
+  news: true
+  web: true
+  reviews: true
+  agent_reach: false
+  last30days: false
+news_sites:
+  - reuters.com
+  - apnews.com
+  - bbc.com
+  - techcrunch.com
+review_sites:
+  - trustpilot.com
+  - g2.com
+  - capterra.com

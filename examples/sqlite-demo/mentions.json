@@ -1,0 +1,589 @@
+[
+  {
+    "id": "bb0cb25c8faf1530",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50332986",
+    "external_url": "https://github.com/4yk5/GhostBase",
+    "title": "Show HN: GhostBase – 25MB terminal database studio for SQLite, Postgres, MySQL",
+    "author": "4yk5",
+    "handle": "4yk5",
+    "published_at": "2026-11-02T04:01:33Z",
+    "language": "en",
+    "text": "Show HN: GhostBase – 25MB terminal database studio for SQLite, Postgres, MySQL",
+    "engagement": {
+      "points": 4,
+      "comments": 0
+    },
+    "target_ids": [
+      "sqlite"
+    ],
+    "sentiment": "unknown",
+    "themes": [
+      "other"
+    ]
+  },
+  {
+    "id": "19ae0cf0c5e7d1a3",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50325969",
+    "external_url": "https://github.com/srdzank/WinSQLite-Editor",
+    "title": "Show HN: WinSQLite Editor–Native C++/Qt SQLite with SQLite-vec and 3D graph",
+    "author": "jasfil8",
+    "handle": "jasfil8",
+    "published_at": "2026-11-01T14:21:22Z",
+    "language": "en",
+    "text": "Show HN: WinSQLite Editor–Native C++/Qt SQLite with SQLite-vec and 3D graph",
+    "engagement": {
+      "points": 3,
+      "comments": 0
+    },
+    "target_ids": [
+      "sqlite"
+    ],
+    "sentiment": "unknown",
+    "themes": [
+      "other"
+    ]
+  },
+  {
+    "id": "6bf4f6595753e8f1",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50317601",
+    "external_url": null,
+    "title": "Tell HN: SQLite's lower() only lowercases ASCII letters",
+    "author": "prmph",
+    "handle": "prmph",
+    "published_at": "2026-10-31T16:30:50Z",
+    "language": "en",
+    "text": "Remember this the next time someone suggests that SQLite is almost as good as (or even, cough, better than) PostgreSQL for production use. I was bit by this today while busily engaged in some related work on my web app project. What the heck?!",
+    "engagement": {
+      "points": 6,
+      "comments": 6
+    },
+    "target_ids": [
+      "sqlite"
+    ],
+    "sentiment": "unknown",
+    "themes": [
+      "other"
+    ]
+  },
+  {
+    "id": "25cd67f43bfec7f7",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50289455",
+    "external_url": "https://seqora.dev/",
+    "title": "Show HN: Seqora – Desktop DB Workbench for PostgreSQL, MySQL and SQLite",
+    "author": "duoro",
+    "handle": "duoro",
+    "published_at": "2026-10-29T14:15:39Z",
+    "language": "en",
+    "text": "I built Seqora as a solo developer because I was tired of DBeaver and TablePlus, the tools I was using. None of them felt like modern tooling. DBeaver is mature, but it lacks customization and it’s slow. TablePlus puts too many limits on its free tier, like only allowing two tabs open at a time. What I wanted to do differently in Seqora was to let me visualize different objects, like indexes, partitions, etc. Another thing I found most tools lacked was a way to figure out what’s slowing down a complex query, so I built a visual EXPLAIN that shows where the time goes. I put the main focus on those two. The next thing was being able to work on a connection visually using diagrams, so I can see how things are connected and make changes by drag and drop. Once everything is done, I can review all the SQL that will run. I made sure the things you need for a daily driver are free, so there’s no limit on the number of queries, connections or tabs. The deep-dive parts, the object views, visual EXPLAIN and schema diagrams, are in Pro. Pro is currently $5.99/month or $49/year. It’s pre-1.0, currently at 0.4.6. It supports macOS (Apple Silicon) and Windows, and Linux is coming soon. It’s built with Tauri, Rust and Svelte. Most of the code was written with Claude Code and ChatGPT. I made the decisions and did the reviewing and testing. I’d love it if you tried it and told me what you don’t like so I can improve it, and also what you hate about your current workbench.",
+    "engagement": {
+      "points": 1,
+      "comments": 0
+    },
+    "target_ids": [
+      "sqlite"
+    ],
+    "sentiment": "mixed",
+    "themes": [
+      "praise"
+    ]
+  },
+  {
+    "id": "126c3b5b084cf41f",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50289184",
+    "external_url": "https://lobste.rs/s/ko1ji1/lobste_rs_is_now_running_on_sqlite",
+    "title": "Lobsters is now running on SQLite",
+    "author": "surprisetalk",
+    "handle": "surprisetalk",
+    "published_at": "2026-10-29T14:00:04Z",
+    "language": "en",
+    "text": "Lobsters is now running on SQLite",
+    "engagement": {
+      "points": 6,
+      "comments": 1
+    },
+    "target_ids": [
+      "sqlite"
+    ],
+    "sentiment": "unknown",
+    "themes": [
+      "other"
+    ]
+  },
+  {
+    "id": "7191e5b2ee096bc9",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50274235",
+    "external_url": "https://www.wordstodata.com/",
+    "title": "Show HN: Local, Tracked, Versioned, Legal Research Databases",
+    "author": "scronkfinkle",
+    "handle": "scronkfinkle",
+    "published_at": "2026-10-28T14:29:47Z",
+    "language": "en",
+    "text": "This is a project I've been working on for about 8 months now. I worked in legal tech for 3 years and found that one of the biggest hurdles for AI agents and lawyers alike when doing legal research is tracking changes, and correctly cross referencing those changes between different forms of legal documents. W2D builds a SQLite dataset from public sources, and offers agent skills for answering questions about that dataset. The dataset holds multiple revisions of the U.S. Code at each release point that you add. It holds the public laws that amend the Code, and it links each amendment to the change that it made. It holds court opinions from CourtListener, by page and paragraph, and it links each U.S.C. citation to the provision that the court cited. It can also hold House roll calls. This is similar in spirit to \"git for Law\" but includes a lot more utilities than diffs to make it an effective tool for research.",
+    "engagement": {
+      "points": 2,
+      "comments": 0
+    },
+    "target_ids": [
+      "sqlite"
+    ],
+    "sentiment": "unknown",
+    "themes": [
+      "other"
+    ]
+  },
+  {
+    "id": "8db9a487d3251f9f",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50274193",
+    "external_url": "https://babeltro.storagebits.workers.dev/",
+    "title": "Show HN: Babeltro – Nine demoscene effects in 13 languages, pixel-identical",
+    "author": "storagebits",
+    "handle": "storagebits",
+    "published_at": "2026-10-28T14:27:27Z",
+    "language": "en",
+    "text": "I was wondering how those classic demoscene effects come out in different languages. It’s interesting to see the required contortions for each language to get there. For example, SQLite has no float32, so it's emulated in SQL. Wasm has no sin(), so the hand-written port builds its own sine table, to name a few. It was built end-to-end by AI agents. Every port is checked pixel by pixel against the C reference by a script in the repo.",
+    "engagement": {
+      "points": 1,
+      "comments": 0
+    },
+    "target_ids": [
+      "sqlite"
+    ],
+    "sentiment": "unknown",
+    "themes": [
+      "other"
+    ]
+  },
+  {
+    "id": "4750307849a68205",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50258875",
+    "external_url": "https://www.withnative.ai/research-and-posts/markdown-context-benchmark",
+    "title": "Show HN: Markdown is 40× more token-efficient with SQLite",
+    "author": "richardcrng",
+    "handle": "richardcrng",
+    "published_at": "2026-10-27T13:23:49Z",
+    "language": "en",
+    "text": "Hi HN, I'm Richard, founder of Native. I'm working on open-source context ownership, to stop AI centralisation: https://github.com/withnative/native https://github.com/withnative/native My first focus has been making Markdown vaults powerful enough so that teams can self-host all of their context (messaging, docs and projects), without it being externally fragmented or rate-limited. I'm sharing some early results: Markdown vaults can be 40× more efficient with SQLite! https://www.withnative.ai/research-and-posts/markdown-context-benchmark https://www.withnative.ai/research-and-posts/markdown-contex... Here's some of the main ideas: - SQLite or Markdown folders, you pick. You can project the same authoritative event log into either form; more projection formats will follow (e.g. maybe neo4j; we do use a graph structure). - Empirically: SQLite is better for agents! On a 120 trial evaluation for 11,000 records, agents use 40× fewer tokens with SQLite vs Markdown, per correct answer. - Everything is a file or SQLite row. Messages, documents and projects: all can be modelled in your vault. You get local-first collaboration with teammates, synced to a cloud of your choice. - You can render your vault with arbitrary UI. Your WhatsApp-like UI speaks to your teammate's Slack-like UI; both are just views over the same database. A few things I've learned building this: - Agents do pretty well even without SQL if you give them strongly typed Markdown frontmatter. This was one arm of the trial I ran. I didn't have any clear expectations, but it was cool to watch: agents ended up writing Python scripts to do SQL-like queries. - Cumulatively, cached input tokens can get expensive. I feel silly in hindsight here. I'd gotten used to letting my sessions run long, \"It's all cached so it's very cheap\". But when I looked at my results here, over 2/3 of the token bill on long sessions was cached input... - \"Markdown vaults don't scale as well as databases\" isn't as self-evident as I think. This is why I decided to benchmark it... I've had some very blank stares when I try to explain how Markdown files might break at true agent-scale volume. Unfortunately, the dataset is private, because it's two months of my own work. I am considering open-sourcing it even so, but there is definitely some embarrassing stuff in there. TBD... I know that independent result verification matters! The core engine that I evaluated is open-source, with more to be released soon: https://github.com/withnative/native https://github.com/withnative/native If you're interested in trying connected context on an open engine, you can get updates from our website or email me directly: richard@withnative.ai https://www.withnative.ai/ https://www.withnative.ai/",
+    "engagement": {
+      "points": 11,
+      "comments": 0
+    },
+    "target_ids": [
+      "sqlite"
+    ],
+    "sentiment": "unknown",
+    "themes": [
+      "pricing",
+      "launch"
+    ]
+  },
+  {
+    "id": "3633f88ee24f3991",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50334563",
+    "external_url": null,
+    "title": "Postgres 19 is late because so many more bugs are being found now",
+    "author": "ncruces",
+    "handle": "ncruces",
+    "published_at": "2026-11-02T09:06:34Z",
+    "language": "en",
+    "text": "I dunno about holes, but… SQLite has gone into a frenzy of bug fixing this past year, changing long stable processes to ease things up: opening a specific report channel just for these kinds of bugs, adding features to Fossil to help manage things on their end (and that's just the visible stuff). And with all that, the latest release has unfortunately been the buggiest I've experienced so far. I skipped the .0 because of a crash, and only released .1 after giving up waiting for a .2 that never came, with a patch to fix a serious performance regression. I spent a month supposedly shipping old bugs no one had a problem with, rather than shipping new bugs that instantly crashed things or caused measurable regressions. That's on a software with stellar testing, and a good engineering team known to favour stability over the new shiny.",
+    "engagement": {},
+    "target_ids": [
+      "sqlite"
+    ],
+    "sentiment": "negative",
+    "themes": [
+      "reliability",
+      "launch"
+    ]
+  },
+  {
+    "id": "c4e8f19dc1088e0c",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50326332",
+    "external_url": null,
+    "title": "Tell HN: SQLite's lower() only lowercases ASCII letters",
+    "author": "andrewl",
+    "handle": "andrewl",
+    "published_at": "2026-11-01T15:04:04Z",
+    "language": "en",
+    "text": "I don’t think you can call the developers’ reasons cop outs . The developers have made no commitment to make users happy. The only commitment they make is that the features listed on their site are in the application. They explicitly state the lower() function does not handle Unicode. You can not cop out on a commitment you have not made. And you can not cop out on a commitment somebody arbitrarily assigns you. SQLite is public domain. Ask for your money back if you’re not satisfied with the gift you received.",
+    "engagement": {},
+    "target_ids": [
+      "sqlite"
+    ],
+    "sentiment": "unknown",
+    "themes": [
+      "other"
+    ]
+  },
+  {
+    "id": "0780104e19b55585",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50325790",
+    "external_url": null,
+    "title": "101 Reasons Why Fossil Is Better Than Git",
+    "author": "DASD",
+    "handle": "DASD",
+    "published_at": "2026-11-01T14:02:33Z",
+    "language": "en",
+    "text": "I've been using Fossil(and Git) since about the same time(late 2000s), so I don't harp on the idea of Fossil as an alternative. I can even see Git as an alternative to Fossil. The document was new to me though. As I admittedly age through the end of my corporate life, a significant reason for me to keep considering Fossil is the size of the team I expect to work with. More and more, my desire is to work on smaller projects and more of my own startup endeavors. Thankfully, I'm not terribly sensitive to Git compatibility. Many do not have this flexibility for considerations. A decade of SQLite use has also made me comfortable with the underpinnings along with a preference for the batteries-included functionality(.e.g wiki, issues, and notes). I'm also not beholden that something better might come along, say Jujutsu and even more so when it has its own native backend.",
+    "engagement": {},
+    "target_ids": [
+      "sqlite"
+    ],
+    "sentiment": "unknown",
+    "themes": [
+      "comparison"
+    ]
+  },
+  {
+    "id": "e9f79ce298fc9a26",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50319089",
+    "external_url": null,
+    "title": "Digital minimalism",
+    "author": "renegat0x0",
+    "handle": "renegat0x0",
+    "published_at": "2026-10-31T19:09:59Z",
+    "language": "en",
+    "text": "The biggest change for me was transitioning to feeds for everything I can I wrote something for myself that fits my style of link consumption. Uses sqlite tables for search https://github.com/rumca-js/OfflineWebSearch https://github.com/rumca-js/OfflineWebSearch I also use my own search index to find domains, channels. I find less often distracted by some algorithm trying to exploit me https://github.com/rumca-js/Internet-Places-Database https://github.com/rumca-js/Internet-Places-Database",
+    "engagement": {},
+    "target_ids": [
+      "sqlite"
+    ],
+    "sentiment": "unknown",
+    "themes": [
+      "other"
+    ]
+  },
+  {
+    "id": "0e43022a4c0be680",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50318863",
+    "external_url": null,
+    "title": "Tell HN: SQLite's lower() only lowercases ASCII letters",
+    "author": "eesmith",
+    "handle": "eesmith",
+    "published_at": "2026-10-31T18:49:49Z",
+    "language": "en",
+    "text": "With my project maintainer hat on, I don't think putting it into sqlite is the correct approach. For one, it means extra work by the sqlite developers, to track the ever-changing Unicode spec, or your releases. For another, the MIT license of the generated code is incompatible with the public domain dedication of sqlite. For a third, sqlite is often part of a larger system, which will likely have its own way of doing Unicode. If there's a mismatch between the supported Unicode versions then there may be subtle errors not easily caught in testing. While if only ASCII is supported, leaving it up to the application programmer to implement the correct collation method, then that's easy to detect and resolve. These are just the thoughts I have. I have no affiliation with the sqlite project.",
+    "engagement": {},
+    "target_ids": [
+      "sqlite"
+    ],
+    "sentiment": "unknown",
+    "themes": [
+      "other"
+    ]
+  },
+  {
+    "id": "a831b01e708792a3",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50317912",
+    "external_url": null,
+    "title": "Tell HN: SQLite's lower() only lowercases ASCII letters",
+    "author": "eesmith",
+    "handle": "eesmith",
+    "published_at": "2026-10-31T17:04:47Z",
+    "language": "en",
+    "text": "How are you distributing SQLite now? That is, do you compile and distribute the version from sqlite.org or do you depend on someone else to package it for you? If the former, then change the compile flags. If the latter, isn't the problem that your distro/packaging provider didn't enable the flags you wanted? Complain to them. As a quick look, I see https://github.com/karlb/sqlite-icu https://github.com/karlb/sqlite-icu claims \"includes a loadable icu extension module for sqlite. This allows other python packages to use this extension without requiring dependencies outside of the python ecosystem\". I've never tried it. There are also alternate sqlite bindings for Python, like https://github.com/coleifer/cysqlite https://github.com/coleifer/cysqlite .",
+    "engagement": {},
+    "target_ids": [
+      "sqlite"
+    ],
+    "sentiment": "unknown",
+    "themes": [
+      "other"
+    ]
+  },
+  {
+    "id": "fd469e1ca4a64500",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50317752",
+    "external_url": null,
+    "title": "Tell HN: SQLite's lower() only lowercases ASCII letters",
+    "author": "prmph",
+    "handle": "prmph",
+    "published_at": "2026-10-31T16:47:14Z",
+    "language": "en",
+    "text": "All these are cope-outs. None of the stated reasons make much sense to me. If I am distributing an app that uses the installed SQLite, you expect me to build a special version of SQLite and bundle it with my app?? Or require some weird extensions? Unicode is about 300,000 characters at most.",
+    "engagement": {},
+    "target_ids": [
+      "sqlite"
+    ],
+    "sentiment": "unknown",
+    "themes": [
+      "other"
+    ]
+  },
+  {
+    "id": "be205a6294b8f479",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50317685",
+    "external_url": null,
+    "title": "Tell HN: SQLite's lower() only lowercases ASCII letters",
+    "author": "eesmith",
+    "handle": "eesmith",
+    "published_at": "2026-10-31T16:39:41Z",
+    "language": "en",
+    "text": "https://sqlite.org/lang_corefunc.html#lower https://sqlite.org/lang_corefunc.html#lower \"The lower(X) function returns a copy of string X with all ASCII characters converted to lower case. The default built-in lower() function works for ASCII characters only. To do case conversions on non-ASCII characters, load the ICU extension.\" FAQ item (18) Case-insensitive matching of Unicode characters does not work, at https://sqlite.org/faq.html https://sqlite.org/faq.html : \"The default configuration of SQLite only supports case-insensitive comparisons of ASCII characters. The reason for this is that doing full Unicode case-insensitive comparisons and case conversions requires tables and logic that would nearly double the size of the SQLite library. The SQLite developers reason that any application that needs full Unicode case support probably already has the necessary tables and functions and so SQLite should not take up space to duplicate this ability. \"Instead of providing full Unicode case support by default, SQLite provides the ability to link against external Unicode comparison and conversion routines. The application can overload the built-in NOCASE collating sequence (using sqlite3_create_collation()) and the built-in like(), upper(), and lower() functions (using sqlite3_create_function()). The SQLite source code includes an \"ICU\" extension that does these overloads. Or, developers can write their own overloads based on their own Unicode-aware comparison routines already contained within their project.\"",
+    "engagement": {},
+    "target_ids": [
+      "sqlite"
+    ],
+    "sentiment": "unknown",
+    "themes": [
+      "support"
+    ]
+  },
+  {
+    "id": "37093934fafd1ccb",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50334747",
+    "external_url": "https://duckdb.org/community_extensions/extensions/duckrouting",
+    "title": "Duckrouting: Graph routing for DuckDB, following pgRouting's",
+    "author": "boshomi",
+    "handle": "boshomi",
+    "published_at": "2026-11-02T09:35:33Z",
+    "language": "en",
+    "text": "Duckrouting: Graph routing for DuckDB, following pgRouting's",
+    "engagement": {
+      "points": 2,
+      "comments": 0
+    },
+    "target_ids": [
+      "duckdb"
+    ],
+    "sentiment": "unknown",
+    "themes": [
+      "other"
+    ]
+  },
+  {
+    "id": "931a5710bb999297",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50330726",
+    "external_url": "https://playground.duckstring.com/story",
+    "title": "Show HN: Duckstring – Pull-orchestrated data pipelines on DuckDB",
+    "author": "isaac-harvey",
+    "handle": "isaac-harvey",
+    "published_at": "2026-11-01T22:48:20Z",
+    "language": "en",
+    "text": "Show HN: Duckstring – Pull-orchestrated data pipelines on DuckDB",
+    "engagement": {
+      "points": 1,
+      "comments": 1
+    },
+    "target_ids": [
+      "duckdb"
+    ],
+    "sentiment": "unknown",
+    "themes": [
+      "other"
+    ]
+  },
+  {
+    "id": "0bcfcb0b83a99602",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50325965",
+    "external_url": null,
+    "title": "Show HN: DuckDB Micro – A Port of DuckDB to the ESP32-P4 Microcontroller",
+    "author": "habedi0",
+    "handle": "habedi0",
+    "published_at": "2026-11-01T14:21:00Z",
+    "language": "en",
+    "text": "This is an experimental port of DuckDB 2.0 to the ESP32-P4 microcontroller. The port runs on a 32-bit RISC-V CPU at 360 MHz with an 8 MB default PSRAM buffer. It runs 60,000-row TPC-H queries in under a second. Project home: https://github.com/habedi/duckdb-micro https://github.com/habedi/duckdb-micro Benchmarks: https://github.com/habedi/duckdb-micro/blob/main/docs/benchmarks.md https://github.com/habedi/duckdb-micro/blob/main/docs/benchm...",
+    "engagement": {
+      "points": 1,
+      "comments": 0
+    },
+    "target_ids": [
+      "duckdb"
+    ],
+    "sentiment": "unknown",
+    "themes": [
+      "other"
+    ]
+  },
+  {
+    "id": "6398135a33934dd5",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50297313",
+    "external_url": "https://altertable.ai/blog/2026-10-29-local-decisions-in-duckdb",
+    "title": "Local Decisions in DuckDB",
+    "author": "altertable",
+    "handle": "altertable",
+    "published_at": "2026-10-29T22:46:35Z",
+    "language": "en",
+    "text": "Local Decisions in DuckDB",
+    "engagement": {
+      "points": 2,
+      "comments": 0
+    },
+    "target_ids": [
+      "duckdb"
+    ],
+    "sentiment": "unknown",
+    "themes": [
+      "other"
+    ]
+  },
+  {
+    "id": "2220cb6b6936e6ef",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50293359",
+    "external_url": "https://duckdb.org/2026/10/29/from-spreadsheets-to-ducklake",
+    "title": "From Spreadsheets to DuckLake: A Data Engineer's Road to DuckDB",
+    "author": "andreasha",
+    "handle": "andreasha",
+    "published_at": "2026-10-29T18:06:16Z",
+    "language": "en",
+    "text": "From Spreadsheets to DuckLake: A Data Engineer's Road to DuckDB",
+    "engagement": {
+      "points": 22,
+      "comments": 0
+    },
+    "target_ids": [
+      "duckdb"
+    ],
+    "sentiment": "unknown",
+    "themes": [
+      "other"
+    ]
+  },
+  {
+    "id": "7aa92f3477d14892",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50272734",
+    "external_url": "https://github.com/labstack/fanout",
+    "title": "Show HN: Fanout – OpenTelemetry back end in one Go binary (Parquet, DuckDB, MCP)",
+    "author": "matrika",
+    "handle": "matrika",
+    "published_at": "2026-10-28T12:48:11Z",
+    "language": "en",
+    "text": "Show HN: Fanout – OpenTelemetry back end in one Go binary (Parquet, DuckDB, MCP)",
+    "engagement": {
+      "points": 1,
+      "comments": 0
+    },
+    "target_ids": [
+      "duckdb"
+    ],
+    "sentiment": "unknown",
+    "themes": [
+      "other"
+    ]
+  },
+  {
+    "id": "64d62be319b6faaa",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50265693",
+    "external_url": "https://query.farm/blog/duckdb-2-release-activity/",
+    "title": "DuckDB 2.0: Upgrade Now or Wait for 2.0.1?",
+    "author": "rustyconover",
+    "handle": "rustyconover",
+    "published_at": "2026-10-27T20:57:00Z",
+    "language": "en",
+    "text": "DuckDB 2.0: Upgrade Now or Wait for 2.0.1?",
+    "engagement": {
+      "points": 2,
+      "comments": 0
+    },
+    "target_ids": [
+      "duckdb"
+    ],
+    "sentiment": "unknown",
+    "themes": [
+      "other"
+    ]
+  },
+  {
+    "id": "fcb66d9e02a4b15e",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50330730",
+    "external_url": null,
+    "title": "Show HN: Duckstring – Pull-orchestrated data pipelines on DuckDB",
+    "author": "isaac-harvey",
+    "handle": "isaac-harvey",
+    "published_at": "2026-11-01T22:48:44Z",
+    "language": "en",
+    "text": "Hi HN, I'm Isaac. This is Duckstring, an open source data engineering platform, using DuckDB as the engine. I've built it to address some of the main frustrations I've had in my years as a data engineer: modularising logic so that it can grow in complexity over time, methods for upgrading components without breaking everything, and implying the DAG through dependencies so that I don't have to manage it. I'm convinced DuckDB is the only engine needed to cover most real-world data pipelines. I've tested it on data scales up to terabytes, and running on appropriately-sized single machines, it's consistently beaten distributed engines like Spark. I think the age of distributed computing for most pipelines might be waning. You can see the benchmark results for some tests here, where at 1 TB DuckDB 2.0 ran 10 times faster than (untuned) Spark: https://duckstring.com/blog/duckdb-pipeline-engine https://duckstring.com/blog/duckdb-pipeline-engine Some specific features of Duckstring: - Data transformations are treated like software packages, allowing the DAG to be implied by dependencies - A pull-based orchestration system, throttling every process both upstream and downstream of the bottleneck so that nothing runs if it can't be consumed - An incremental framework based on DBSP that handles updates and deletes efficiently - CLI-first, so that you can point your own AI agents at the platform rather than relying on a janky integration The link is to an intro story, which passes on to a Playground app to help get a feel for the orchestration method. Link if you want that directly: https://playground.duckstring.com https://playground.duckstring.com You can also just go straight to the site or the project on GitHub: https://duckstring.com https://duckstring.com https://github.com/duckstring-dev/duckstring https://github.com/duckstring-dev/duckstring It's pre-1.0, though has been in active development since January, and is ready to try on real pipelines. I'd love to hear your feedback!",
+    "engagement": {},
+    "target_ids": [
+      "duckdb"
+    ],
+    "sentiment": "positive",
+    "themes": [
+      "praise"
+    ]
+  },
+  {
+    "id": "f997749633109f8e",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50327179",
+    "external_url": null,
+    "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+    "author": "roansh",
+    "handle": "roansh",
+    "published_at": "2026-11-01T16:35:54Z",
+    "language": "en",
+    "text": "Thanks! First version was clunky, and hot-linked all cover images. Right now its plain JS and static JSON files, hosted on Cloudflare. First load pulls a ~30kb index of the top books, the full 16k list loads in the background, and everything has hashed filenames so it's cached forever. Covers are on R2. The data pipeline is python + duckdb over the HN dump. And fair on the post, I had claude draft it and only edited it a couple of times. Should have just written it myself.",
+    "engagement": {},
+    "target_ids": [
+      "duckdb"
+    ],
+    "sentiment": "unknown",
+    "themes": [
+      "other"
+    ]
+  },
+  {
+    "id": "0379bdb555cff861",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50321845",
+    "external_url": null,
+    "title": "It's the memory latency, stupid",
+    "author": "quotemstr",
+    "handle": "quotemstr",
+    "published_at": "2026-11-01T01:11:40Z",
+    "language": "en",
+    "text": "Uh, isn't this just radix-partitioned aggregation? Hierarchical (fixed two level) aggregation is old. What's novel here? Microcosm of Pivot itself I guess. I just don't get why this project exists when DuckDB and Clickhouse both exist.",
+    "engagement": {},
+    "target_ids": [
+      "duckdb"
+    ],
+    "sentiment": "unknown",
+    "themes": [
+      "other"
+    ]
+  },
+  {
+    "id": "1ffc04caf0c2e5c5",
+    "source": "hackernews",
+    "url": "https://news.ycombinator.com/item?id=50294278",
+    "external_url": null,
+    "title": "MiniLake Is a Local Databricks API Emulator with SQL, Delta Lake and Spark",
+    "author": "switchbak",
+    "handle": "switchbak",
+    "published_at": "2026-10-29T19:09:55Z",
+    "language": "en",
+    "text": "They were early movers and established a lot of the patterns in the space, but I just don't see them holding on to this lead. Spark/Hadoop is really so damn inefficient that something like DuckDB shows where that overhead is, and it's extreme in many cases.",
+    "engagement": {},
+    "target_ids": [
+      "duckdb"
+    ],
+    "sentiment": "unknown",
+    "themes": [
+      "other"
+    ]
+  }
+]

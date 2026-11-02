@@ -1,0 +1,31 @@
+# Mentions
+
+| Source | Age | Author | Targets | Sentiment | Text | Link |
+| --- | --- | --- | --- | --- | --- | --- |
+| hackernews | today | 4yk5 | sqlite | unknown | Show HN: GhostBase – 25MB terminal database studio for SQLite, Postgres, MySQL | https://news.ycombinator.com/item?id=50332986 |
+| hackernews | today | jasfil8 | sqlite | unknown | Show HN: WinSQLite Editor–Native C++/Qt SQLite with SQLite-vec and 3D graph | https://news.ycombinator.com/item?id=50325969 |
+| hackernews | 1 day ago | prmph | sqlite | unknown | Remember this the next time someone suggests that SQLite is almost as good as (or even, cough, better than) PostgreSQL for production use. I was bit by this… | https://news.ycombinator.com/item?id=50317601 |
+| hackernews | 3 days ago | duoro | sqlite | mixed | I built Seqora as a solo developer because I was tired of DBeaver and TablePlus, the tools I was using. None of them felt like modern tooling. DBeaver is… | https://news.ycombinator.com/item?id=50289455 |
+| hackernews | 3 days ago | surprisetalk | sqlite | unknown | Lobsters is now running on SQLite | https://news.ycombinator.com/item?id=50289184 |
+| hackernews | 4 days ago | scronkfinkle | sqlite | unknown | This is a project I've been working on for about 8 months now. I worked in legal tech for 3 years and found that one of the biggest hurdles for AI agents and… | https://news.ycombinator.com/item?id=50274235 |
+| hackernews | 4 days ago | storagebits | sqlite | unknown | I was wondering how those classic demoscene effects come out in different languages. It’s interesting to see the required contortions for each language to get… | https://news.ycombinator.com/item?id=50274193 |
+| hackernews | 5 days ago | richardcrng | sqlite | unknown | Hi HN, I'm Richard, founder of Native. I'm working on open-source context ownership, to stop AI centralisation: https://github.com/withnative/native… | https://news.ycombinator.com/item?id=50258875 |
+| hackernews | today | ncruces | sqlite | negative | I dunno about holes, but… SQLite has gone into a frenzy of bug fixing this past year, changing long stable processes to ease things up: opening a specific… | https://news.ycombinator.com/item?id=50334563 |
+| hackernews | today | andrewl | sqlite | unknown | I don’t think you can call the developers’ reasons cop outs . The developers have made no commitment to make users happy. The only commitment they make is that… | https://news.ycombinator.com/item?id=50326332 |
+| hackernews | today | DASD | sqlite | unknown | I've been using Fossil(and Git) since about the same time(late 2000s), so I don't harp on the idea of Fossil as an alternative. I can even see Git as an… | https://news.ycombinator.com/item?id=50325790 |
+| hackernews | 1 day ago | renegat0x0 | sqlite | unknown | The biggest change for me was transitioning to feeds for everything I can I wrote something for myself that fits my style of link consumption. Uses sqlite… | https://news.ycombinator.com/item?id=50319089 |
+| hackernews | 1 day ago | eesmith | sqlite | unknown | With my project maintainer hat on, I don't think putting it into sqlite is the correct approach. For one, it means extra work by the sqlite developers, to… | https://news.ycombinator.com/item?id=50318863 |
+| hackernews | 1 day ago | eesmith | sqlite | unknown | How are you distributing SQLite now? That is, do you compile and distribute the version from sqlite.org or do you depend on someone else to package it for you?… | https://news.ycombinator.com/item?id=50317912 |
+| hackernews | 1 day ago | prmph | sqlite | unknown | All these are cope-outs. None of the stated reasons make much sense to me. If I am distributing an app that uses the installed SQLite, you expect me to build a… | https://news.ycombinator.com/item?id=50317752 |
+| hackernews | 1 day ago | eesmith | sqlite | unknown | https://sqlite.org/lang_corefunc.html#lower https://sqlite.org/lang_corefunc.html#lower "The lower(X) function returns a copy of string X with all ASCII… | https://news.ycombinator.com/item?id=50317685 |
+| hackernews | today | boshomi | duckdb | unknown | Duckrouting: Graph routing for DuckDB, following pgRouting's | https://news.ycombinator.com/item?id=50334747 |
+| hackernews | today | isaac-harvey | duckdb | unknown | Show HN: Duckstring – Pull-orchestrated data pipelines on DuckDB | https://news.ycombinator.com/item?id=50330726 |
+| hackernews | today | habedi0 | duckdb | unknown | This is an experimental port of DuckDB 2.0 to the ESP32-P4 microcontroller. The port runs on a 32-bit RISC-V CPU at 360 MHz with an 8 MB default PSRAM buffer.… | https://news.ycombinator.com/item?id=50325965 |
+| hackernews | 3 days ago | altertable | duckdb | unknown | Local Decisions in DuckDB | https://news.ycombinator.com/item?id=50297313 |
+| hackernews | 3 days ago | andreasha | duckdb | unknown | From Spreadsheets to DuckLake: A Data Engineer's Road to DuckDB | https://news.ycombinator.com/item?id=50293359 |
+| hackernews | 4 days ago | matrika | duckdb | unknown | Show HN: Fanout – OpenTelemetry back end in one Go binary (Parquet, DuckDB, MCP) | https://news.ycombinator.com/item?id=50272734 |
+| hackernews | 5 days ago | rustyconover | duckdb | unknown | DuckDB 2.0: Upgrade Now or Wait for 2.0.1? | https://news.ycombinator.com/item?id=50265693 |
+| hackernews | today | isaac-harvey | duckdb | positive | Hi HN, I'm Isaac. This is Duckstring, an open source data engineering platform, using DuckDB as the engine. I've built it to address some of the main… | https://news.ycombinator.com/item?id=50330730 |
+| hackernews | today | roansh | duckdb | unknown | Thanks! First version was clunky, and hot-linked all cover images. Right now its plain JS and static JSON files, hosted on Cloudflare. First load pulls a ~30kb… | https://news.ycombinator.com/item?id=50327179 |
+| hackernews | 1 day ago | quotemstr | duckdb | unknown | Uh, isn't this just radix-partitioned aggregation? Hierarchical (fixed two level) aggregation is old. What's novel here? Microcosm of Pivot itself I guess. I… | https://news.ycombinator.com/item?id=50321845 |
+| hackernews | 3 days ago | switchbak | duckdb | unknown | They were early movers and established a lot of the patterns in the space, but I just don't see them holding on to this lead. Spark/Hadoop is really so damn… | https://news.ycombinator.com/item?id=50294278 |

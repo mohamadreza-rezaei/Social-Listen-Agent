@@ -1,0 +1,65 @@
+[
+  {
+    "source": "hackernews",
+    "status": "ok",
+    "detail": "queried",
+    "fetched": 0,
+    "kept": 0
+  },
+  {
+    "source": "reddit",
+    "status": "blocked",
+    "detail": "Vellamore Studio: Reddit HTTP 403; \u0648\u0644\u0627\u0645\u0648\u0631: Reddit HTTP 403; \u0627\u0633\u062a\u0648\u062f\u06cc\u0648 \u0648\u0644\u0627\u0645\u0648\u0631: Reddit HTTP 403; Vellamore: Reddit HTTP 403",
+    "fetched": 0,
+    "kept": 0
+  },
+  {
+    "source": "x",
+    "status": "unconfigured",
+    "detail": "Set X_BEARER_TOKEN to query the official recent-search API. No token was set, so X was not called.",
+    "fetched": 0,
+    "kept": 0
+  },
+  {
+    "source": "youtube",
+    "status": "unconfigured",
+    "detail": "Set YOUTUBE_API_KEY for the Data API, or enable sources.agent_reach for the keyless youtube channel.",
+    "fetched": 0,
+    "kept": 0
+  },
+  {
+    "source": "web",
+    "status": "blocked",
+    "detail": "Vellamore Studio: DuckDuckGo refused the query (HTTP 202); \u0648\u0644\u0627\u0645\u0648\u0631: DuckDuckGo refused the query (HTTP 202); \u0627\u0633\u062a\u0648\u062f\u06cc\u0648 \u0648\u0644\u0627\u0645\u0648\u0631: DuckDuckGo refused the query (HTTP 202); Vellamore: DuckDuckGo refused the query (HTTP 202)",
+    "fetched": 0,
+    "kept": 0
+  },
+  {
+    "source": "news",
+    "status": "blocked",
+    "detail": "Vellamore Studio: DuckDuckGo refused the query (HTTP 202); \u0648\u0644\u0627\u0645\u0648\u0631: DuckDuckGo refused the query (HTTP 202); \u0627\u0633\u062a\u0648\u062f\u06cc\u0648 \u0648\u0644\u0627\u0645\u0648\u0631: DuckDuckGo refused the query (HTTP 202); Vellamore: DuckDuckGo refused the query (HTTP 202)",
+    "fetched": 0,
+    "kept": 0
+  },
+  {
+    "source": "reviews",
+    "status": "blocked",
+    "detail": "Vellamore Studio: trustpilot.com: DuckDuckGo refused the query (HTTP 202); emalls.ir: DuckDuckGo refused the query (HTTP 202); \u0648\u0644\u0627\u0645\u0648\u0631: trustpilot.com: DuckDuckGo refused the query (HTTP 202); emalls.ir: DuckDuckGo refused the query (HTTP 202); \u0627\u0633\u062a\u0648\u062f\u06cc\u0648 \u0648\u0644\u0627\u0645\u0648\u0631: trustpilot.com: DuckDuckGo refused the query (HTTP 202); emalls.ir: DuckDuckGo refused the query (HTTP 202); Vellamore: trustpilot.com: DuckDuckGo refused the query (HTTP 202); emalls.ir: DuckDuckGo refused the query (HTTP 202)",
+    "fetched": 0,
+    "kept": 0
+  },
+  {
+    "source": "agent_reach",
+    "status": "skipped",
+    "detail": "optional Agent Reach CLI is off (sources.agent_reach)",
+    "fetched": 0,
+    "kept": 0
+  },
+  {
+    "source": "last30days",
+    "status": "skipped",
+    "detail": "optional last30days CLI is off; built-in clustering still runs on items this process collected",
+    "fetched": 0,
+    "kept": 0
+  }
+]

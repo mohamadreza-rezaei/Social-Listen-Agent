@@ -1,0 +1,21 @@
+Social Listen Agent
+Copyright (c) 2026 Social Listen Agent contributors
+
+This project is licensed under the MIT License (see LICENSE).
+
+Optional external programs are not vendored. When you install them, their
+own licenses apply:
+
+- Agent Reach — https://github.com/Panniantong/Agent-Reach
+  MIT License, Copyright (c) 2025 Agent Eyes.
+  This repository shells out to the `agent-reach` CLI when it is on PATH.
+  It does not copy Agent Reach source code. Do not install the unrelated
+  PyPI package named `agent-reach`; upstream documents that it is a
+  different project.
+
+- last30days — https://github.com/mvanhorn/last30days-skill
+  MIT License, Copyright (c) 2026 Matt Van Horn.
+  This repository shells out to that project's CLI when LAST30DAYS_BIN or
+  `last30days` is on PATH. The built-in `research` command is an independent
+  implementation of the same job (a 30-day window, key patterns, and a
+  STRONG / THIN / NONE label). It is not a copy of the upstream engine.

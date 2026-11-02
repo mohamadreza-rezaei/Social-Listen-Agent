@@ -1,0 +1,95 @@
+{
+  "name": "vellamore-watch",
+  "mode": "run",
+  "generated_at": "2026-11-02T10:28:08Z",
+  "window_days": 7,
+  "signal": "NONE",
+  "verdict_7d": "quiet",
+  "mentions_7d": 0,
+  "mentions_kept": 0,
+  "undated_not_counted_in_verdict": 0,
+  "cleared_bar": false,
+  "quiet": true,
+  "llm_used": false,
+  "limitations": [
+    "Undated web, news, and review snippets are listed when a run writes output, but they do not flip the 7-day verdict and they do not count toward STRONG.",
+    "Each query is capped at 10 hits per request. A cap is a limit of this run, not a claim that nothing else exists.",
+    "Sentiment and theme tags come from a small lexicon in English and Persian. Unknown means the lexicon did not match.",
+    "Language detection is coarse: Latin text is tagged en, and Persian-specific letters are tagged fa. Set languages only when that guess is good enough.",
+    "Own-account posts and pages on the target's own domains are excluded. Third-party posts that link to those domains are kept.",
+    "This tool never posts, likes, replies, follows, or sends direct messages.",
+    "reddit: blocked. Vellamore Studio: Reddit HTTP 403; Vellamore: Reddit HTTP 403; Brindlepath: Reddit HTTP 403",
+    "x: unconfigured. Set X_BEARER_TOKEN to query the official recent-search API. No token was set, so X was not called.",
+    "youtube: unconfigured. Set YOUTUBE_API_KEY for the Data API, or enable sources.agent_reach for the keyless youtube channel.",
+    "web: blocked. Vellamore Studio: DuckDuckGo refused the query (HTTP 202); Vellamore: DuckDuckGo refused the query (HTTP 202); Brindlepath: DuckDuckGo refused the query (HTTP 202)",
+    "news: blocked. Vellamore Studio: DuckDuckGo refused the query (HTTP 202); Vellamore: DuckDuckGo refused the query (HTTP 202); Brindlepath: DuckDuckGo refused the query (HTTP 202)",
+    "reviews: blocked. Vellamore Studio: trustpilot.com: DuckDuckGo refused the query (HTTP 202); g2.com: DuckDuckGo refused the query (HTTP 202); capterra.com: DuckDuckGo refused the query (HTTP 202); Vellamore: trustpilot.com: DuckDuckGo refused the query (HTTP 202); g2.com: DuckDuckGo refused the query (HTTP 202); capterra.com: DuckDuckGo refused the query (HTTP 202); Brindlepath: trustpilot.com: DuckDuckGo refused the query (HTTP 202); g2.com: DuckDuckGo refused the query (HTTP 202); capterra.com: DuckDuckGo refused the query (HTTP 202)",
+    "agent_reach: skipped. optional Agent Reach CLI is off (sources.agent_reach)",
+    "last30days: skipped. optional last30days CLI is off; built-in clustering still runs on items this process collected"
+  ],
+  "sources": [
+    {
+      "source": "hackernews",
+      "status": "ok",
+      "detail": "queried",
+      "fetched": 0,
+      "kept": 0
+    },
+    {
+      "source": "reddit",
+      "status": "blocked",
+      "detail": "Vellamore Studio: Reddit HTTP 403; Vellamore: Reddit HTTP 403; Brindlepath: Reddit HTTP 403",
+      "fetched": 0,
+      "kept": 0
+    },
+    {
+      "source": "x",
+      "status": "unconfigured",
+      "detail": "Set X_BEARER_TOKEN to query the official recent-search API. No token was set, so X was not called.",
+      "fetched": 0,
+      "kept": 0
+    },
+    {
+      "source": "youtube",
+      "status": "unconfigured",
+      "detail": "Set YOUTUBE_API_KEY for the Data API, or enable sources.agent_reach for the keyless youtube channel.",
+      "fetched": 0,
+      "kept": 0
+    },
+    {
+      "source": "web",
+      "status": "blocked",
+      "detail": "Vellamore Studio: DuckDuckGo refused the query (HTTP 202); Vellamore: DuckDuckGo refused the query (HTTP 202); Brindlepath: DuckDuckGo refused the query (HTTP 202)",
+      "fetched": 0,
+      "kept": 0
+    },
+    {
+      "source": "news",
+      "status": "blocked",
+      "detail": "Vellamore Studio: DuckDuckGo refused the query (HTTP 202); Vellamore: DuckDuckGo refused the query (HTTP 202); Brindlepath: DuckDuckGo refused the query (HTTP 202)",
+      "fetched": 0,
+      "kept": 0
+    },
+    {
+      "source": "reviews",
+      "status": "blocked",
+      "detail": "Vellamore Studio: trustpilot.com: DuckDuckGo refused the query (HTTP 202); g2.com: DuckDuckGo refused the query (HTTP 202); capterra.com: DuckDuckGo refused the query (HTTP 202); Vellamore: trustpilot.com: DuckDuckGo refused the query (HTTP 202); g2.com: DuckDuckGo refused the query (HTTP 202); capterra.com: DuckDuckGo refused the query (HTTP 202); Brindlepath: trustpilot.com: DuckDuckGo refused the query (HTTP 202); g2.com: DuckDuckGo refused the query (HTTP 202); capterra.com: DuckDuckGo refused the query (HTTP 202)",
+      "fetched": 0,
+      "kept": 0
+    },
+    {
+      "source": "agent_reach",
+      "status": "skipped",
+      "detail": "optional Agent Reach CLI is off (sources.agent_reach)",
+      "fetched": 0,
+      "kept": 0
+    },
+    {
+      "source": "last30days",
+      "status": "skipped",
+      "detail": "optional last30days CLI is off; built-in clustering still runs on items this process collected",
+      "fetched": 0,
+      "kept": 0
+    }
+  ]
+}

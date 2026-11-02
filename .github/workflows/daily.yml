@@ -1,0 +1,41 @@
+# Daily watch. Empty days write quiet.txt and do not write a digest.
+# Add secrets only for the sources you turn on. Missing secrets degrade that
+# source; they do not fail the job and they are never used to post.
+
+name: Daily listen
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  listen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -e .
+      - name: Listen
+        env:
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+          WEB_SEARCH_PROVIDER: ${{ vars.WEB_SEARCH_PROVIDER }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ vars.OPENAI_BASE_URL }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+        run: social-listen run --config configs/example.yaml --out artifacts/listen
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: listen-${{ github.run_id }}
+          path: artifacts/listen
+          if-no-files-found: ignore
